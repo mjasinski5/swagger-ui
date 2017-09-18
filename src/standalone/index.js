@@ -1,17 +1,17 @@
-import StandaloneLayout from "./layout"
-import TopbarPlugin from "plugins/topbar"
-import ConfigsPlugin from "plugins/configs"
+import StandaloneLayout from "./layout";
+import TopbarPlugin from "plugins/topbar";
+import ConfigsPlugin from "plugins/configs";
 
 // the Standalone preset
 
 let preset = [
-  TopbarPlugin,
+  // TopbarPlugin,
   ConfigsPlugin,
   () => {
     return {
       components: { StandaloneLayout }
-    }
+    };
   }
-]
+];
 
-module.exports = preset
+module.exports = preset;
